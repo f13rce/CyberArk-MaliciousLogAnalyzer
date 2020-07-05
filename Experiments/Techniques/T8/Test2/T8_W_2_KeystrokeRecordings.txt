@@ -1,0 +1,24 @@
+000000000000|HDR |000000000036|000000000020|S                   |0|
+000000025339|TITL|000000000029|explorer.exe, Program Manager
+000000000037|TITL|000000000023|explorer.exe, Downloads
+000000003014|TITL|000000000025|explorer.exe, Z on COMP01
+000000003323|TITL|000000000019|explorer.exe, Users
+000000012606|TITL|000000000018|explorer.exe, Mike
+000000002683|TITL|000000000023|explorer.exe, Documents
+000000021488|TITL|000000000021|7zG.exe,  Compressing
+000000000171|TITL|000000000023|7zG.exe, 0% Compressing
+000000000169|TITL|000000000065|7zG.exe, 0% Compressing \\tsclient\Z\Users ... ents\Documents.zip
+000000664805|TITL|000000000023|explorer.exe, Downloads
+000000100441|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000000043|TITL|000000000062|notepad++.exe, *C:\Users\s_admin\Downloads\test.py - Notepad++
+000000056583|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000011011|TITL|000000000073|python.exe, C:\Users\s_admin\Downloads\WPy32-3771\python-3.7.7\python.exe
+000000027611|TITL|000000000073|python.exe, C:\Users\s_admin\Downloads\WPy32-3771\python-3.7.7\python.exe
+000000006830|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000005407|TITL|000000000062|notepad++.exe, *C:\Users\s_admin\Downloads\test.py - Notepad++
+000000005079|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000007766|TITL|000000000073|python.exe, C:\Users\s_admin\Downloads\WPy32-3771\python-3.7.7\python.exe
+000000196432|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000005542|TITL|000000000062|notepad++.exe, *C:\Users\s_admin\Downloads\test.py - Notepad++
+000000014081|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000006580|TITL|000000000073|python.exe, C:\Users\s_admin\Downloads\WPy32-3771\python-3.7.7\python.exe

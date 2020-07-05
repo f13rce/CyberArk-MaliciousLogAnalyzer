@@ -1,0 +1,14 @@
+Windows:
+Delete logs (SNPerfMon-20200xxxxxxx.blg) from C:\PerfLogs\Admin\ServerManager\, edit SNPerfMon-20200508195131-160.blg in notepad++ and delete this log.
+
+Windows:Test3:
+cmd del password.txt
+
+Test4: Permanently Remove multiple files/folder/shortcut
+
+Linux:
+Ivar -> Root -> Edit log and remove:
+
+head -n -2 /var/log/yum.log
+sed '2,10d' /var/log/yum.log
+rm -f /var/log/yum.log

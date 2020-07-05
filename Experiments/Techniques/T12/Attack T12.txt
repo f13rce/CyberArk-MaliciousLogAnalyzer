@@ -1,0 +1,9 @@
+Windows:
+Windows+R and type shell:startup
+Copy a shortcut test.bat from T2 to this folder to function as a start up script. 
+
+Linux:
+Set test.sh as start up script in /etc/rc.d/rc.local:
+
+nano /etc/rc.d/rc.local
+/home/root/test.sh

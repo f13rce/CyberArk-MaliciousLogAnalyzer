@@ -1,0 +1,8 @@
+Test1+2
+Windows:On COMP01 \\tsclient\Z\Users\Mike\Documents: confidential info.docx and passwords.txt
+Script ran, but no results (Script or WinPython issue?)
+
+Linux: Not possible, no shares
+
+Test3+4: 
+Windows: Use GUI to search password and use "dir *password* /s /p"

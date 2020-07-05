@@ -1,0 +1,7 @@
+Test1+2:
+Windows: On COMP01 C:\Users\s_admin\Documents: confidential info.docx and passwords.txt
+Linux:On RHEL07 ./: passwords.txt
+
+Test3+4: 
+Windows: Use GUI to search password and use "dir *password* /s /p"
+Linux: find / -name *password* 

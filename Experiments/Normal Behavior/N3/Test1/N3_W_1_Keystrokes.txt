@@ -1,0 +1,54 @@
+000000000000|HDR |000000000036|000000000020|S                   |0|
+000000023967|TITL|000000000029|explorer.exe, Program Manager
+000000000028|TITL|000000000021|explorer.exe, This PC
+000000007364|TITL|000000000027|explorer.exe, Control Panel
+000000004877|TITL|000000000033|explorer.exe, System and Security
+000000003359|TITL|000000000020|explorer.exe, System
+000000003955|TITL|000000000037|explorer.exe, All Control Panel Items
+000000006957|TITL|000000000027|explorer.exe, User Accounts
+000000008279|TITL|000000000021|explorer.exe, This PC
+000000004691|TITL|000000000029|explorer.exe, Local Disk (C:)
+000000003728|TITL|000000000019|explorer.exe, Users
+000000004219|TITL|000000000023|explorer.exe, Downloads
+000000000751|TITL|000000000023|explorer.exe, Documents
+000000011481|TITL|000000000035|notepad.exe, document.txt - Notepad
+000000023586|TITL|000000000018|explorer.exe, Drag
+000000003039|TITL|000000000022|explorer.exe, document
+000000005760|TITL|000000000023|explorer.exe, Documents
+000000004611|TITL|000000000027|explorer.exe, Delete Folder
+000000015573|TITL|000000000029|explorer.exe, Local Disk (C:)
+000000008348|TITL|000000000025|Taskmgr.exe, Task Manager
+000000043354|TITL|000000000034|ApplicationFrameHost.exe, Settings
+000000000154|TITL|000000000028|SystemSettings.exe, Settings
+000000034995|TITL|000000000028|SystemSettings.exe, Settings
+000000006142|TITL|000000000023|cmd.exe, Command Prompt
+000000007492|TITL|000000000039|cmd.exe, Command Prompt - ping  8.8.8.8
+000000003075|TITL|000000000023|cmd.exe, Command Prompt
+000000012023|TITL|000000000030|cmd.exe, Select Command Prompt
+000000006881|TITL|000000000023|cmd.exe, Command Prompt
+000000004498|TITL|000000000040|cmd.exe, Command Prompt - ipconfig  /all
+000000000053|TITL|000000000023|cmd.exe, Command Prompt
+000000012953|TITL|000000000039|cmd.exe, Command Prompt - ping  8.8.8.8
+000000001841|TITL|000000000023|cmd.exe, Command Prompt
+000000014585|TITL|000000000042|cmd.exe, Command Prompt - tracert  8.8.8.8
+000000013903|TITL|000000000023|cmd.exe, Command Prompt
+000000011865|TITL|000000000034|powershell.exe, Windows PowerShell
+000000047583|TITL|000000000045|mmc.exe, Active Directory Users and Computers
+000000049869|TITL|000000000028|mmc.exe, Computer Management
+000000018024|TITL|000000000020|mmc.exe, DNS Manager
+000000029459|TITL|000000000048|vf_host_uia.exe, Launch with elevated privileges
+000000005392|TITL|000000000021|mmc.exe, Event Viewer
+000000034229|TITL|000000000026|cleanmgr.exe, Disk Cleanup
+000000026775|TITL|000000000022|mmc.exe, OLEChannelWnd
+000000000070|TITL|000000000028|mmc.exe, Performance Monitor
+000000044599|TITL|000000000036|cleanmgr.exe, Disk Cleanup for  (C:)
+000000007553|TITL|000000000026|cleanmgr.exe, Disk Cleanup
+000000007517|TITL|000000000032|notepad++.exe, new 1 - Notepad++
+000000000123|TITL|000000000061|notepad++.exe, C:\Users\s_admin\Downloads\test.py - Notepad++
+000000000045|TITL|000000000062|notepad++.exe, *C:\Users\s_admin\Downloads\test.py - Notepad++
+000000017549|TITL|000000000024|filezilla.exe, FileZilla
+000000000135|TITL|000000000035|filezilla.exe, Welcome to FileZilla
+000000002702|TITL|000000000032|filezilla.exe, Check for Updates
+000000013338|TITL|000000000036|cleanmgr.exe, Disk Cleanup for  (C:)
+000000002741|TITL|000000000026|cleanmgr.exe, Disk Cleanup
+000000002065|TITL|000000000026|cleanmgr.exe, Disk Cleanup

@@ -1,0 +1,20 @@
+Windows:
+net user hackerman welcome01 /ADD
+net user CYBERhackerman welcome01 /ADD /DOMAIN
+net localgroup administrators CYBR\hackerman /add
+
+net user hackerman2 welcome01 /ADD
+net user CYBERhackerman2 welcome01 /ADD /DOMAIN
+net localgroup administrators CYBR\hackerman2 /add
+
+Test3+4: Windows:
+Add user via GUI and add rights
+
+
+Linux:
+useradd -G wheel ivar
+passwd ivar
+
+Session got suspended after passwd (see PTA)
+
+

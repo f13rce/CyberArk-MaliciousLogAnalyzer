@@ -1,0 +1,9 @@
+000000611433|TITL|000000000035|chrome.exe, New Tab - Google Chrome
+000000014232|TITL|000000000040|chrome.exe, Open File - Security Warning
+000000002266|TITL|000000000072|DefinitelyNotAChromeCookieGrabber.exe, Cookiemonster sends their regards
+000000015894|TITL|000000000052|explorer.exe, DB.Browser.for.SQLite-3.12.0-rc1-win32
+000000001453|TITL|000000000035|explorer.exe, DB Browser for SQLite
+000000005313|TITL|000000000042|explorer.exe, Open File - Security Warning
+000000003799|TITL|000000000048|DB Browser for SQLite.exe, DB Browser for SQLite
+000000003183|TITL|000000000049|DB Browser for SQLite.exe, Choose a database file
+000000008948|TITL|000000000085|DB Browser for SQLite.exe, DB Browser for SQLite - C:\Users\s_admin\Downloads\Cookies

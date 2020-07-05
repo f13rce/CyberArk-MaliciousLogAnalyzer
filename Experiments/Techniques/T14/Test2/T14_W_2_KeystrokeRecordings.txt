@@ -1,0 +1,6 @@
+000000452918|TITL|000000000030|explorer.exe, Windows Firewall
+000000006297|TITL|000000000032|explorer.exe, Customize Settings
+000000009651|TITL|000000000030|explorer.exe, Windows Firewall
+000000019498|TITL|000000000048|mmc.exe, Windows Firewall with Advanced Security
+000000006642|TITL|000000000077|mmc.exe, Windows Firewall with Advanced Security on Local Computer Properties
+000000015318|TITL|000000000048|mmc.exe, Windows Firewall with Advanced Security

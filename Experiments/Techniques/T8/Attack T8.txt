@@ -1,0 +1,8 @@
+On COMP01: C:\Users\s_admin\Documents and \\tsclient\Z\Users\Mike\Documents: confidential info.docx and passwords.txt zipped to confidential info.zip
+
+NO RESPONSE IN CAPTURE!!!!!!!
+
+Test2: 7zip used :D
+
+Linux: 
+zip documents.zip passwords.txt

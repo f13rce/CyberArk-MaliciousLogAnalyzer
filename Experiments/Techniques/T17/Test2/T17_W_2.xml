@@ -1,0 +1,5211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<results preview='0'>
+<meta>
+<fieldOrder>
+<field>_raw</field>
+<field>_time</field>
+<field>act</field>
+<field>app</field>
+<field>cn1Label</field>
+<field>cn2Label</field>
+<field>cs1Label</field>
+<field>cs2</field>
+<field>cs2Label</field>
+<field>cs3</field>
+<field>cs3Label</field>
+<field>cs4Label</field>
+<field>cs5Label</field>
+<field>date_hour</field>
+<field>date_mday</field>
+<field>date_minute</field>
+<field>date_month</field>
+<field>date_second</field>
+<field>date_wday</field>
+<field>date_year</field>
+<field>date_zone</field>
+<field>dhost</field>
+<field>duser</field>
+<field>eventtype</field>
+<field>externalId</field>
+<field>fname</field>
+<field>host</field>
+<field>index</field>
+<field>linecount</field>
+<field>punct</field>
+<field>reason</field>
+<field>shost</field>
+<field>source</field>
+<field>sourcetype</field>
+<field>splunk_server</field>
+<field>suser</field>
+<field>timeendpos</field>
+<field>timestartpos</field>
+</fieldOrder>
+</meta>
+	<result offset='0'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:29:59 184.170.232.53 1 2020-06-11T09:29:59Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=chrome.exe, Untitled - Google Chrome cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:29:59.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>29</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>59</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>chrome.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='1'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:29:59 184.170.232.53 1 2020-06-11T09:29:59Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=chrome.exe, Downloads - Google Chrome cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:29:59.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>29</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>59</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>chrome.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='2'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:00 184.170.232.53 1 2020-06-11T09:30:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|7|Logon|5|act=&quot;Logon&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logon</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='3'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:00 184.170.232.53 1 2020-06-11T09:30:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|7|Logon|5|act=&quot;Logon&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logon</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='4'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:00 184.170.232.53 1 2020-06-11T09:30:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|8|Logoff|5|act=&quot;Logoff&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logoff</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='5'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:00 184.170.232.53 1 2020-06-11T09:30:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|8|Logoff|5|act=&quot;Logoff&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logoff</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='6'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:10 184.170.232.53 1 2020-06-11T09:30:10Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=chrome.exe, Untitled - Google Chrome cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:10.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>10</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>chrome.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='7'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:10 184.170.232.53 1 2020-06-11T09:30:10Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=chrome.exe, Downloads - Google Chrome cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:10.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>10</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>chrome.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='8'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:16 184.170.232.53 1 2020-06-11T09:30:16Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:16.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>16</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='9'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:20 184.170.232.53 1 2020-06-11T09:30:20Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, Extract Compressed (Zipped) Folders cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:20.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>20</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='10'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:26 184.170.232.53 1 2020-06-11T09:30:26Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 0% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:26.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>26</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='11'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:27 184.170.232.53 1 2020-06-11T09:30:27Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, Replace or Skip Files cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:27.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>27</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='12'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:29 184.170.232.53 1 2020-06-11T09:30:29Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 0% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:29.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>29</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='13'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:29 184.170.232.53 1 2020-06-11T09:30:29Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 4% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:29.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>29</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='14'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:29 184.170.232.53 1 2020-06-11T09:30:29Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 17% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:29.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>29</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='15'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:30 184.170.232.53 1 2020-06-11T09:30:30Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 25% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:30.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='16'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:30 184.170.232.53 1 2020-06-11T09:30:30Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 34% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:30.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='17'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:30 184.170.232.53 1 2020-06-11T09:30:30Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 42% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:30.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='18'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:31 184.170.232.53 1 2020-06-11T09:30:31Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 51% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:31.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='19'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:31 184.170.232.53 1 2020-06-11T09:30:31Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 60% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:31.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='20'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:31 184.170.232.53 1 2020-06-11T09:30:31Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 68% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:31.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='21'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:32 184.170.232.53 1 2020-06-11T09:30:32Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 76% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:32.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>32</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='22'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:32 184.170.232.53 1 2020-06-11T09:30:32Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 79% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:32.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>32</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='23'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:32 184.170.232.53 1 2020-06-11T09:30:32Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 82% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:32.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>32</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='24'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:33 184.170.232.53 1 2020-06-11T09:30:33Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 90% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:33.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>33</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='25'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:33 184.170.232.53 1 2020-06-11T09:30:33Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 98% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:33.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>33</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='26'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:33 184.170.232.53 1 2020-06-11T09:30:33Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, 100% complete cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:33.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>33</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='27'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:34 184.170.232.53 1 2020-06-11T09:30:33Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, Downloads cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:34.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>34</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='28'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:37 184.170.232.53 1 2020-06-11T09:30:37Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=explorer.exe, Downloads cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:37.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>37</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>explorer.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='29'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:46 184.170.232.53 1 2020-06-11T09:30:46Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe,  Extracting cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:46.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>46</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='30'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:46 184.170.232.53 1 2020-06-11T09:30:46Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 14% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:46.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>46</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='31'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:47 184.170.232.53 1 2020-06-11T09:30:47Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 28% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:47.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>47</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='32'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:48 184.170.232.53 1 2020-06-11T09:30:48Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 66% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:48.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>48</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='33'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:49 184.170.232.53 1 2020-06-11T09:30:49Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 86% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:49.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>49</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='34'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:50 184.170.232.53 1 2020-06-11T09:30:50Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 96% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:50.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>50</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='35'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:51 184.170.232.53 1 2020-06-11T09:30:51Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 97% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:51.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>51</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='36'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:51 184.170.232.53 1 2020-06-11T09:30:51Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=7zG.exe, 100% Extracting C:\\Users\\s_admin\\D ... \\ToEncrypt (2).zip cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:51.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>51</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>7zG.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='37'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:55 184.170.232.53 1 2020-06-11T09:30:55Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=chrome.exe, Open File - Security Warning cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:55.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>55</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>chrome.exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='38'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:57 184.170.232.53 1 2020-06-11T09:30:57Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|51|Retrieve File|5|act=&quot;Retrieve File&quot; suser=PasswordManager fname=Root\Policies\Policy-WindowsJustInTime.ini dvc= shost=10.0.0.15 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;PasswordManagerShared&quot; cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:57.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Retrieve File</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>PasswordManagerShared</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>57</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\Policies\Policy-WindowsJustInTime.ini</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\\-._=_=..._=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PasswordManager</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='39'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:30:58 184.170.232.53 1 2020-06-11T09:30:58Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:30:58.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>30</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>58</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='40'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:00 184.170.232.53 1 2020-06-11T09:31:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|7|Logon|5|act=&quot;Logon&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logon</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='41'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:00 184.170.232.53 1 2020-06-11T09:31:00Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|8|Logoff|5|act=&quot;Logoff&quot; suser=PTAUser fname= dvc= shost=10.0.0.40 dhost= duser= externalId= app= reason= cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2= cs3Label=&quot;Device Type&quot; cs3= cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:00.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Logoff</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>0</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||||=&quot;&quot;_=_=_=_=..._=_=_=_=_</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>PTAUser</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='42'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:07 184.170.232.53 1 2020-06-11T09:31:07Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, Select C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:07.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>7</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='43'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:08 184.170.232.53 1 2020-06-11T09:31:08Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:08.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>8</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='44'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:31 184.170.232.53 1 2020-06-11T09:31:31Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, Select C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:31.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='45'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:32 184.170.232.53 1 2020-06-11T09:31:32Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:32.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>32</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='46'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:33 184.170.232.53 1 2020-06-11T09:31:33Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, Select C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:33.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>33</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+	<result offset='47'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 11 11:31:34 184.170.232.53 1 2020-06-11T09:31:34Z VLT01 CEF:0|Cyber-Ark|Vault|11.4.0000|411|Window Title|5|act=&quot;Window Title&quot; suser=mike fname=Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc dvc= shost=10.0.0.15 dhost=DC01 duser=s_admin externalId=867977c4-9aa4-422d-901b-ed09fe0542c7 app=RDP reason=fuxsocy (2).exe, C:\\Users\\s_admin\\Downloads\\fuxsocy (2).exe cs1Label=&quot;Affected User Name&quot; cs1= cs2Label=&quot;Safe Name&quot; cs2=&quot;Windows Domain Admins&quot; cs3Label=&quot;Device Type&quot; cs3=&quot;Operating System&quot; cs4Label=&quot;Database&quot; cs4= cs5Label=&quot;Other info&quot; cs5= cn1Label=&quot;Request Id&quot; cn1= cn2Label=&quot;Ticket Id&quot; cn2= msg= reason=</v></field>
+		<field k='_time'>
+			<value><text>2020-06-11T11:31:34.000+0200</text></value>
+		</field>
+		<field k='act'>
+			<value><text>Window Title</text></value>
+		</field>
+		<field k='app'>
+			<value><text>RDP</text></value>
+		</field>
+		<field k='cn1Label'>
+			<value><text>Request Id</text></value>
+		</field>
+		<field k='cn2Label'>
+			<value><text>Ticket Id</text></value>
+		</field>
+		<field k='cs1Label'>
+			<value><text>Affected User Name</text></value>
+		</field>
+		<field k='cs2'>
+			<value><text>Windows Domain Admins</text></value>
+		</field>
+		<field k='cs2Label'>
+			<value><text>Safe Name</text></value>
+		</field>
+		<field k='cs3'>
+			<value><text>Operating System</text></value>
+		</field>
+		<field k='cs3Label'>
+			<value><text>Device Type</text></value>
+		</field>
+		<field k='cs4Label'>
+			<value><text>Database</text></value>
+		</field>
+		<field k='cs5Label'>
+			<value><text>Other info</text></value>
+		</field>
+		<field k='date_hour'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_mday'>
+			<value><text>11</text></value>
+		</field>
+		<field k='date_minute'>
+			<value><text>31</text></value>
+		</field>
+		<field k='date_month'>
+			<value><text>june</text></value>
+		</field>
+		<field k='date_second'>
+			<value><text>34</text></value>
+		</field>
+		<field k='date_wday'>
+			<value><text>thursday</text></value>
+		</field>
+		<field k='date_year'>
+			<value><text>2020</text></value>
+		</field>
+		<field k='date_zone'>
+			<value><text>local</text></value>
+		</field>
+		<field k='dhost'>
+			<value><text>DC01</text></value>
+		</field>
+		<field k='duser'>
+			<value><text>s_admin</text></value>
+		</field>
+		<field k='eventtype'>
+			<value><text>Syslog</text></value>
+		</field>
+		<field k='externalId'>
+			<value><text>867977c4-9aa4-422d-901b-ed09fe0542c7</text></value>
+		</field>
+		<field k='fname'>
+			<value><text>Root\CYBR.COM-s_admin-28ddfe18-5d0a-4f81-8ca0-3733889ae3cc</text></value>
+		</field>
+		<field k='host'>
+			<value><text>184.170.232.53</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='punct'>
+			<value><text>__::_...__--::__:|-||..||_||=&quot;_&quot;_=_=\.------_=_=..</text></value>
+		</field>
+		<field k='reason'>
+			<value><text>fuxsocy (2).exe</text></value>
+		</field>
+		<field k='shost'>
+			<value><text>10.0.0.15</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:514</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+		<field k='suser'>
+			<value><text>mike</text></value>
+		</field>
+		<field k='timeendpos'>
+			<value><text>15</text></value>
+		</field>
+		<field k='timestartpos'>
+			<value><text>0</text></value>
+		</field>
+	</result>
+</results>

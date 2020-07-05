@@ -1,0 +1,1 @@
+Add user in PVWA and assign admin rights

@@ -1,0 +1,39 @@
+000000011403|TITL|000000000036|chrome.exe, Untitled - Google Chrome
+000000000094|TITL|000000000037|chrome.exe, Downloads - Google Chrome
+000000005720|TITL|000000000031|explorer.exe, ToEncrypt (2).zip
+000000004526|TITL|000000000049|explorer.exe, Extract Compressed (Zipped) Folders
+000000005707|TITL|000000000025|explorer.exe, 0% complete
+000000000661|TITL|000000000035|explorer.exe, Replace or Skip Files
+000000001939|TITL|000000000025|explorer.exe, 0% complete
+000000000271|TITL|000000000025|explorer.exe, 4% complete
+000000000387|TITL|000000000026|explorer.exe, 17% complete
+000000000349|TITL|000000000026|explorer.exe, 25% complete
+000000000312|TITL|000000000026|explorer.exe, 34% complete
+000000000376|TITL|000000000026|explorer.exe, 42% complete
+000000000340|TITL|000000000026|explorer.exe, 51% complete
+000000000352|TITL|000000000026|explorer.exe, 60% complete
+000000000303|TITL|000000000026|explorer.exe, 68% complete
+000000000323|TITL|000000000026|explorer.exe, 76% complete
+000000000367|TITL|000000000026|explorer.exe, 79% complete
+000000000259|TITL|000000000026|explorer.exe, 82% complete
+000000000309|TITL|000000000026|explorer.exe, 90% complete
+000000000383|TITL|000000000026|explorer.exe, 98% complete
+000000000348|TITL|000000000027|explorer.exe, 100% complete
+000000000070|TITL|000000000023|explorer.exe, Downloads
+000000003741|TITL|000000000023|explorer.exe, Downloads
+000000008387|TITL|000000000020|7zG.exe,  Extracting
+000000000157|TITL|000000000065|7zG.exe, 14% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000000829|TITL|000000000065|7zG.exe, 28% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000000979|TITL|000000000065|7zG.exe, 66% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000001060|TITL|000000000065|7zG.exe, 86% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000001008|TITL|000000000065|7zG.exe, 96% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000001007|TITL|000000000065|7zG.exe, 97% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000000310|TITL|000000000066|7zG.exe, 100% Extracting C:\Users\s_admin\D ... \ToEncrypt (2).zip
+000000004361|TITL|000000000040|chrome.exe, Open File - Security Warning
+000000002619|TITL|000000000059|fuxsocy (2).exe, C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000008727|TITL|000000000066|fuxsocy (2).exe, Select C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000001130|TITL|000000000059|fuxsocy (2).exe, C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000022883|TITL|000000000066|fuxsocy (2).exe, Select C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000000982|TITL|000000000059|fuxsocy (2).exe, C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000001598|TITL|000000000066|fuxsocy (2).exe, Select C:\Users\s_admin\Downloads\fuxsocy (2).exe
+000000000807|TITL|000000000059|fuxsocy (2).exe, C:\Users\s_admin\Downloads\fuxsocy (2).exe

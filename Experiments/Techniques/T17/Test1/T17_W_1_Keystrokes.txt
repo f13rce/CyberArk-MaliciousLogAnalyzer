@@ -1,0 +1,31 @@
+000000000000|HDR |000000000036|000000000020|S                   |0|
+000000025352|TITL|000000000029|explorer.exe, Program Manager
+000000000029|TITL|000000000035|chrome.exe, New Tab - Google Chrome
+000000000025|TITL|000000000028|cmd.exe, test.bat - Shortcut
+000000022298|TITL|000000000040|chrome.exe, Open File - Security Warning
+000000006501|TITL|000000000051|fuxsocy.exe, C:\Users\s_admin\Downloads\fuxsocy.exe
+000000018796|TITL|000000000027|explorer.exe, ToEncrypt.zip
+000000003727|TITL|000000000049|explorer.exe, Extract Compressed (Zipped) Folders
+000000003316|TITL|000000000026|explorer.exe, 27% complete
+000000000295|TITL|000000000026|explorer.exe, 39% complete
+000000000421|TITL|000000000026|explorer.exe, 53% complete
+000000000433|TITL|000000000026|explorer.exe, 67% complete
+000000000458|TITL|000000000026|explorer.exe, 73% complete
+000000000449|TITL|000000000026|explorer.exe, 76% complete
+000000000247|TITL|000000000026|explorer.exe, 81% complete
+000000000449|TITL|000000000026|explorer.exe, 91% complete
+000000000780|TITL|000000000026|explorer.exe, 92% complete
+000000000246|TITL|000000000026|explorer.exe, 97% complete
+000000000328|TITL|000000000027|explorer.exe, 100% complete
+000000000019|TITL|000000000023|explorer.exe, ToEncrypt
+000000006652|TITL|000000000023|explorer.exe, Downloads
+000000007828|TITL|000000000015|explorer.exe, s
+000000001492|TITL|000000000018|explorer.exe, Drag
+000000000264|TITL|000000000018|explorer.exe, Drag
+000000000057|TITL|000000000018|explorer.exe, Drag
+000000002010|TITL|000000000023|explorer.exe, Downloads
+000000008822|TITL|000000000042|explorer.exe, Open File - Security Warning
+000000004212|TITL|000000000051|fuxsocy.exe, C:\Users\s_admin\Downloads\fuxsocy.exe
+000000006489|TITL|000000000058|fuxsocy.exe, Select C:\Users\s_admin\Downloads\fuxsocy.exe
+000000001187|TITL|000000000051|fuxsocy.exe, C:\Users\s_admin\Downloads\fuxsocy.exe
+000000017196|TITL|000000000023|explorer.exe, ToEncrypt

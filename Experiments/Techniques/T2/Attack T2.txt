@@ -1,0 +1,34 @@
+Goal: Capture system information by creating a script that is run as root
+
+Windows:
+Mike -> Root -> test.bat
+
+```
+systeminfo
+systeminfo /s 10.0.0.15 /u hackerman /p welcome01
+
+ipconfig /all
+```
+
+
+
+Linux:
+
+```bash
+#!/bin/bash
+
+sudo su
+lsb_release -a
+df -h /dev/sda1
+ip addr show
+uptime
+free
+cat /etc/passwd
+cat /etc/shadow
+cat ~/bash_history
+history
+lshw
+lspci
+```
+
+Ivar -> Root -> nano test.sh -> chmod +x test.sh -> ./test.sh

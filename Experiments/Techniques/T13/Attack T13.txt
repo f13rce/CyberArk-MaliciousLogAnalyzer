@@ -1,0 +1,3 @@
+Windows: Not possible
+
+Linux: Administrator -> RHEL7 Root -> sudo EDITOR=/usr/bin/nano visudo -> append with: carlos ALL=(ALL) NOPASSWD: ALL

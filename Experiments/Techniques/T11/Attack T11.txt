@@ -1,0 +1,9 @@
+Test1+2:
+Windows: USB not possible on Windows, used Linux instead.
+
+Linux: scanner.py ran on folder /mnt/usb and found files
+python scanner.py
+
+Test3+4: 
+Windows: Use GUI to search password and use "dir *password* /s /p"
+Linux: find / -name *password* 

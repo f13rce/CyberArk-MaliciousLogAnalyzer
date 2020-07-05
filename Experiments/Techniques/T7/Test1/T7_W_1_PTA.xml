@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<results preview='0'>
+<meta>
+<fieldOrder>
+<field>_raw</field>
+<field>_time</field>
+<field>host</field>
+<field>index</field>
+<field>linecount</field>
+<field>source</field>
+<field>sourcetype</field>
+<field>splunk_server</field>
+</fieldOrder>
+</meta>
+	<result offset='0'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 08 08:12:40 10.0.0.40 CEF:0|CyberArk|PTA|11.4|39|Risky activities detected in privileged session|7|suser=mike(Vault user) shost=client01.cybr.com src=10.0.0.20 duser=s_admin@dc01.cybr.com dhost=dc01.cybr.com dst=10.0.0.5 cs1Label=ExtraData cs1=a5573af7-b221-4520-aa4b-3c86e65c7d5c cs2Label=EventID cs2=5ede2abde4b024708261c12d deviceCustomDate1Label=DetectionDate deviceCustomDate1=1591618237000 cs3Label=PTALink cs3=https://comp01.cybr.com:443/PasswordVault/v10/pta/events/5ede2abde4b024708261c12d cs4Label=ExternalLink cs4=https://comp01.cybr.com:443/PasswordVault/directaccess.aspx?livesessiondetails.aspx&amp;searchpattern\=a5573af7-b221-4520-aa4b-3c86e65c7d5c cs5Label=SuspiciousSessionActivity cs5=Administrator\\: Command Prompt - reg  add HKEY_CURRENT_USER\\\\System\\\\GameConfigStore /v GameDVREnabled /t REG_DWORD /d 1</v></field>
+		<field k='_time'>
+			<value><text>2020-06-08T08:12:40.000+0200</text></value>
+		</field>
+		<field k='host'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='linecount'>
+			<value><text>1</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:51444</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+	</result>
+	<result offset='1'>
+		<field k='_raw'><v xml:space='preserve' trunc='0'>Jun 08 08:10:37 10.0.0.40 CEF:0|CyberArk|PTA|11.4|39|Risky activities detected in privileged session|2|suser=mike(Vault user) shost=client01.cybr.com src=10.0.0.20 duser=s_admin@dc01.cybr.com dhost=dc01.cybr.com dst=10.0.0.5 cs1Label=ExtraData cs1=a5573af7-b221-4520-aa4b-3c86e65c7d5c cs2Label=EventID cs2=5ede2abde4b024708261c12d deviceCustomDate1Label=DetectionDate deviceCustomDate1=1591618237000 cs3Label=PTALink cs3=https://comp01.cybr.com:443/PasswordVault/v10/pta/events/5ede2abde4b024708261c12d cs4Label=ExternalLink cs4=https://comp01.cybr.com:443/PasswordVault/directaccess.aspx?livesessiondetails.aspx&amp;searchpattern\=a5573af7-b221-4520-aa4b-3c86e65c7d5c cs5Label=SuspiciousSessionActivity cs5=Registry Editor</v></field>
+		<field k='_time'>
+			<value><text>2020-06-08T08:10:37.000+0200</text></value>
+		</field>
+		<field k='host'>
+			<value><text>10.0.0.40</text></value>
+		</field>
+		<field k='index'>
+			<value><text>main</text></value>
+		</field>
+		<field k='linecount'>
+			<value><text>1</text></value>
+		</field>
+		<field k='source'>
+			<value h='1'><text>udp:51444</text></value>
+		</field>
+		<field k='sourcetype'>
+			<value><text>syslog</text></value>
+		</field>
+		<field k='splunk_server'>
+			<value><text>london</text></value>
+		</field>
+	</result>
+</results>

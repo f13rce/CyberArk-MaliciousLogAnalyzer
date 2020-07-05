@@ -1,0 +1,5 @@
+Windows: 
+Test 1&3: Made http://145.100.104.48/FriendlyMalware.exe and executed on DC01
+Test 2: Made http://145.100.104.48/NotAVirus.exe to open reverse meterpreter shell
+
+Linux: Not possible

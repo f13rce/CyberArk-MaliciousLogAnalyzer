@@ -1,0 +1,4 @@
+Windows:
+Meterpreter
+
+Linux: Not possible

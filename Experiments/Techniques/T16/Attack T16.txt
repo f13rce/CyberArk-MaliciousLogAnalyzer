@@ -1,0 +1,7 @@
+Windows: Script to grab cookies from chrome on a device.
+- Download en run: https://cdn.discordapp.com/attachments/559676586941743114/720187171398615041/DefinitelyNotAChromeCookieGrabber.exe
+- Cookies are stored in Downloads folder to be grabbed
+- SQLiteBrowser downloaded and extracted: https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win32.zip
+- Cookies database file opened in SQLbrowser and cookies were visible: Impersonation possible.
+
+Linux: Not possible

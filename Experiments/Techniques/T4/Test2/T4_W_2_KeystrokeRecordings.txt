@@ -1,0 +1,16 @@
+000000103515|TITL|000000000023|cmd.exe, Command Prompt
+000000004671|TITL|000000000054|ShellExperienceHost.exe, Windows Shell Experience Host
+000000005816|TITL|000000000023|cmd.exe, Command Prompt
+000000000045|TITL|000000000038|cmd.exe, Administrator: Command Prompt
+000000013981|TITL|000000000045|cmd.exe, Select Administrator: Command Prompt
+000000000685|TITL|000000000038|cmd.exe, Administrator: Command Prompt
+000000009450|TITL|000000000076|cmd.exe, Administrator: Command Prompt - net  user hackerman2 welcome01 /ADD
+000000000612|TITL|000000000089|cmd.exe, Administrator: Command Prompt - net  user CYBERhackerman2 welcome01 /ADD /DOMAIN
+000000000627|TITL|000000000092|cmd.exe, Administrator: Command Prompt - net  localgroup administrators CYBR\hackerman2 /add
+000000000549|TITL|000000000038|cmd.exe, Administrator: Command Prompt
+000000002439|TITL|000000000092|cmd.exe, Administrator: Command Prompt - net  localgroup administrators DC01\hackerman2 /add
+000000000506|TITL|000000000038|cmd.exe, Administrator: Command Prompt
+000000111303|TITL|000000000045|cmd.exe, Select Administrator: Command Prompt
+000000000875|TITL|000000000038|cmd.exe, Administrator: Command Prompt
+000000001701|TITL|000000000050|cmd.exe, Administrator: Command Prompt - net  user
+000000000361|TITL|000000000038|cmd.exe, Administrator: Command Prompt

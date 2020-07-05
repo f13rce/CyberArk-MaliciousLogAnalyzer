@@ -1,0 +1,4 @@
+Login to PVWA, Click on devices in different vaults and show passwords
+
+Pointer in logs:
+"Action: Copy Password"
